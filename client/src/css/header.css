@@ -1,0 +1,35 @@
+.headerContainer {
+  margin-top: 30px;
+}
+.profileImg {
+  max-width: 100%;
+  border-radius: 50%;
+}
+.mainHeaderText {
+  margin-top: -20px;
+  font-family: Arial;
+  line-height: 1.1;
+  font-weight: 300;
+  font-variant: normal;
+  font-size: 20px;
+  color: black;
+}
+.buttonBoxHeader{
+  margin-top: 10px;
+}
+.childHeaderText{
+  font-family: 'Times New Roman';
+  word-break: break-all;
+  font-style: oblique;
+  font-size: 13px;
+  color: rgb(3, 59, 59, 0.93);
+}
+
+@media screen and (min-width: 767px) {
+  .mainHeaderText{
+    font-size: 30px !important;
+  }
+  .childHeaderText{
+    font-size: 19px;
+  }
+}
