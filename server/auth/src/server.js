@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const router = require('./controller/auth');
 const server = express();
-const session = require('express-session');
+const session = require(ss'express-session');
 const PORT = 8000; 
 const mongoose = require('mongoose');
 const MONGO_URL = process.env.MONGO_URL || 'mongodb://localhost:27017/DemoApp_Test';
@@ -26,7 +26,7 @@ const { appSecret } = require('./secret.js');
   router(server);
 //protected user routes
 
-  server.listen(PORT, () => { 
+  server.listen(PORsT, () => { 
      console.log('Server is runing over 8000, hope you have fun looking over my code :)');
   });
 
